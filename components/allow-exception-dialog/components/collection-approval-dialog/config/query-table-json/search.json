@@ -1,0 +1,150 @@
+[
+  {
+    "propertyName": "inMonth",
+    "columnName": "bb.in_month",
+    "columnType": "string",
+    "label": "纳入月份"
+  },
+  {
+    "propertyName": "marketName",
+    "columnName": "bb.market_name",
+    "columnType": "string",
+    "label": "销售经理"
+  },
+  {
+    "propertyName": "assistantName",
+    "columnName": "bb.assistant_name",
+    "columnType": "string",
+    "label": "销售助理"
+  },
+  {
+    "propertyName": "paymentCustomerName",
+    "columnName": "bb.payment_customer_name",
+    "columnType": "string",
+    "label": "付款公司"
+  },
+  {
+    "propertyName": "billMonthly.billSentStatus",
+    "columnName": "bm.bill_sent_status",
+    "columnType": "enum",
+    "label": "流程状态",
+    "lookupCode": "fms_bill_month_send_status"
+  },
+  {
+    "propertyName": "billMonthly.checkType",
+    "columnName": "bm.check_type",
+    "columnType": "enum",
+    "label": "对账方式",
+    "lookupCode": "crm_check_type"
+  },
+  {
+    "propertyName": "paymentCustomerId",
+    "columnName": "payment_customer_id",
+    "columnType": "string",
+    "label": "付款公司ID"
+  },
+  {
+    "propertyName": "totalFeeAmount",
+    "columnName": "totalFeeAmount",
+    "columnType": "number",
+    "label": "总运费"
+  },
+  {
+    "propertyName": "billReceivables.netReceiptsAmount",
+    "columnName": "br.net_receipts_amount",
+    "columnType": "number",
+    "label": "公司应收"
+  },
+  {
+    "propertyName": "publicDiscount",
+    "columnName": "bb.public_discount",
+    "columnType": "number",
+    "label": "对公折扣"
+  },
+  {
+    "propertyName": "customer.signPayDay",
+    "columnName": "customer.signPayDay",
+    "columnType": "string",
+    "label": "协议付款日"
+  },
+  {
+    "propertyName": "customer.signInfo",
+    "columnName": "customer.signInfo",
+    "columnType": "string",
+    "label": "协议备注"
+  },
+  {
+    "propertyName": "customer.receiveRemark",
+    "columnName": "customer.receiveRemark",
+    "columnType": "string",
+    "label": "收款备注"
+  },
+  {
+    "propertyName": "customer.checkRequest",
+    "columnName": "customer.checkRequest",
+    "columnType": "string",
+    "label": "对账要求"
+  },
+  {
+    "propertyName": "customer.mailList[0]",
+    "columnName": "customer.mailList[0]",
+    "columnType": "string",
+    "label": "邮箱1"
+  },
+  {
+    "propertyName": "customer.mailList[1]",
+    "columnName": "customer.mailList[1]",
+    "columnType": "string",
+    "label": "邮箱2"
+  },
+  {
+    "propertyName": "customer.mailList[2]",
+    "columnName": "customer.mailList[2]",
+    "columnType": "string",
+    "label": "邮箱3"
+  },
+  {
+    "propertyName": "billMonthly.billType",
+    "columnName": "bm.bill_type",
+    "columnType": "enum",
+    "label": "账单发送类型",
+    "lookupCode": "fms_send_type"
+  },
+  {
+    "propertyName": "customer.contacts",
+    "columnName": "customer.contacts",
+    "columnType": "string",
+    "label": "对账联系人"
+  },
+  {
+    "propertyName": "billMonthly.billSentDate",
+    "columnName": "bm.bill_sent_date",
+    "columnType": "date",
+    "label": "账单发送日"
+  },
+  {
+    "propertyName": "billMonthly.status",
+    "columnName": "bm.status",
+    "columnType": "enum",
+    "label": "状态",
+    "lookupCode": "fms_bill_month_status"
+  },
+  {
+    "propertyName": "billMonthly.billSentRemark",
+    "columnName": "bm.bill_sent_remark",
+    "columnType": "string",
+    "label": "操作失败原因"
+  },
+  {
+    "propertyName": "customer.customerCode",
+    "columnName": "customer.customerCode",
+    "columnType": "string",
+    "label": "客户编码"
+  },
+  {
+    "propertyName": "billReceivables.unReceiveFeeAmount",
+    "columnName": "billReceivables.unReceiveFeeAmount",
+    "columnType": "string",
+    "label": "未收运费"
+  }
+]

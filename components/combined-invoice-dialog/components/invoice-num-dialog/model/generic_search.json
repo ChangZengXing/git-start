@@ -1,0 +1,30 @@
+[
+  {
+    "propertyName": "shippingDate",
+    "columnName": "pb.shipping_date",
+    "columnType": "date",
+    "operation": "between",
+    "label": "寄件时间"
+  },
+  {
+    "propertyName": "inMonth",
+    "columnName": "pb.in_month",
+    "columnType": "string",
+    "operation": "equal",
+    "label": "纳入月份"
+  },
+  {
+    "propertyName": "paymentCustomerName",
+    "columnName": "pb.payment_customer_name",
+    "columnType": "string",
+    "operation": "contain",
+    "label": "付款公司"
+  },
+  {
+    "propertyName": "billPerson.waybillNumber",
+    "columnName": "bperson.waybill_number",
+    "columnType": "string",
+    "operation": "equal",
+    "label": "运单号"
+  }
+]
