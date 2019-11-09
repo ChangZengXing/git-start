@@ -3,7 +3,7 @@
  */
 
 import axios from 'axios'
-import JSZip from './js-zip/index.min.js'
+import JSZip from './js-zip/index.min.js.js'
 import { curDay } from './date-helper'
 import { saveAs } from './file-saver'
 import fileType from './file-type'
